@@ -1,0 +1,23 @@
+{
+    "name": "hisham/peckr",
+    "description": "A simple composer package to get the pecking order of a group based on the preferred priority.",
+    "type": "composer-plugin",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4",
+        "symfony/var-dumper": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Peckr\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammed Hisham",
+            "email": "hishammedayil@gmail.com"
+        }
+    ]
+}
